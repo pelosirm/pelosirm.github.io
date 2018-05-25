@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*    font-size: 100%;*/
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
+
+
+body {
+    width: 100%;
+}
+
+header {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 9vw;
+    color: black;
+}
+
+.header-image {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 95vh;
+    background-size: cover;
+    background: url("img/on-top-of-a-mountain.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.header-intro {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 150px;
+    letter-spacing: -5px;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+}
+
+.header-text p {
+    font-weight: 100;
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
+    line-height: 30px;
+}
+
+.nav-bar {
+    top:0;
+    position: fixed;
+    margin-top: 0;
+    margin-right: 10%;
+    z-index: 1000;
+    height: 80px;
+    background-color: black;
+    clear: both;
+    width: 100%;
+    overflow: auto;
+    clear: both;
+}
+
+.nav-bar li {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    color: #FF7A2C !important;
+    float: left;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+.right {
+    float: right;
+}
+
+.grouped-links a {
+    margin-right: 20px;
+}
+
+
+.section-title {
+    font-size: 150px;
+    letter-spacing: -5px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 95px;
+    text-align: center;
+}
+
+.skills p, 
+.contact p {
+    text-align: center;
+}
+
+[class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
+}
+
+i {
+    text-align:center;
+}
+
+.about-me .col-6,
+.about-me .col-9,
+.about-me .col-4,
+.portfolio .col-6{
+    height: 300px;
+}
+
+
+
+.about-me p{
+    font-size: 22px;
+    color:black;
+}
+
+.about-me-content{
+    margin-left: 10px;
+
+}
+
+.portfolio-content {
+    padding-left: 30px;
+    padding-top: 15px;px;
+}
+
+.contact-section , .skill-section, .portfolio-section{
+    text-align: center;
+}
+
+
+.skills p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.my-picture {
+    background-image: url(img/riley.jpg);
+    height: 175px !important;
+    width: 150px !important;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+}
+
+.news-pile {
+    background-image: url("img/news-pile.png");
+    height: 100%;
+    width: 50%;
+}
+
+.take-a-hike {
+    background-image: url("img/take-a-hike.png");
+    height: 100%;
+    width: 50%;
+}
+
+.explore {
+    background-image: url("img/explore-your-options.png");
+    height: 100%;
+    width: 50%;
+}
+
+.project-title {
+    font-weight: 700;
+}
+
+section {
+    margin-top:10%
+}
+
+
+.button {
+    background-color: #FF7A2C;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+
+.about-me .row {
+    margin-bottom: 40px;
+}
+.icon {
+    display: inline-block;
+    margin:10px;
+}
+.block {
+    display: block;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 75px;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    color:white;
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section-title {
+        font-size: 100px;
+        letter-spacing: -5px;
+        color: black;
+        margin-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    section {
+        margin-top:20%
+    }
+
+    .news-pile {
+        background-image: url("img/news-pile.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 50%;
+    }
+
+    .take-a-hike {
+        background-image: url("img/take-a-hike.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 50%;
+    }
+
+    .explore {
+        background-image: url("img/explore-your-options.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 50%;
+    }
+
+} 
