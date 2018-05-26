@@ -278,6 +278,10 @@ section {
 .about-me .row {
     margin-bottom: 40px;
 }
+
+#portfolio-section .row {
+     margin-bottom: 150px;
+}
 .icon {
     display: inline-block;
     margin:10px;
@@ -353,6 +357,6 @@ footer p {
     }
 
     #portfolio-section .row {
-        margin-bottom: 10%
+        margin-bottom: 30%
     }
 } 
